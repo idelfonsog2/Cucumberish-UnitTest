@@ -10,7 +10,6 @@ import Foundation
 import Cucumberish
 
 class LoginSteps: LoginScreen {
-    
     func LoginStepsImplementation() {
         Given("I'm a new user that is registering for the first time \"(.*)\"") { args, dataTable in
             // call your unit test implementations

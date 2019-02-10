@@ -1,3 +1,4 @@
+@ios
 Feature: Login
 Scenario: a member can login
 Given I'm a new user that is registering for the first time "Idelfonso"

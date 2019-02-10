@@ -17,6 +17,6 @@ import Cucumberish
         LoginSteps().LoginStepsImplementation()
         
         let bundle = Bundle(for: CucumberishInitializer.self)
-        Cucumberish.executeFeatures(inDirectory: "Features", from: bundle, includeTags: nil, excludeTags: nil)
+        Cucumberish.executeFeatures(inDirectory: "Features", from: bundle, includeTags: ["ios"], excludeTags: ["rails"])
     }
 }

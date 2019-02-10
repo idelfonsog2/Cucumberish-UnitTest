@@ -15,6 +15,5 @@ class LoginScreen: XCTestCase {
     
     func proposedResult(_ args: String) {
         XCTAssertTrue(args == "Idelfonso", "the argument in the feature file is not my name")
-        XCTAssertTrue(args != "Idelfonsooooo", "the argument in the feature file is not my name")
     }
 }
