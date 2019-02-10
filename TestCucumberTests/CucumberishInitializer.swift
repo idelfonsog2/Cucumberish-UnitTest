@@ -13,9 +13,6 @@ import Cucumberish
     
     @objc public class func CucumberishSwiftInit() {
         let cucumber = Cucumberish()
-        cucumber.prettyNamesAllowed = true
-        cucumber.prettyFeatureNamesAllowed = true
-        cucumber.prettyScenarioNamesAllowed = true
         
         LoginSteps().LoginStepsImplementation()
         
