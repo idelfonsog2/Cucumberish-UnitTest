@@ -81,6 +81,7 @@ class LoginSteps: LoginScreen {
             // call your unit test implementations
         }
     }
+}
 
 ```
 
